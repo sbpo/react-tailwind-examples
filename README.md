@@ -9,3 +9,9 @@ To view projects on your machine clone or download, then run:
 Finally, to run the project locally run:
 
 ### `yarn start`
+
+The project contains two components
+
+![image uploader](img/uploader.png?raw=true "Image uploader")
+
+![Location input](img/locationinput.png?raw=true "Location input")
