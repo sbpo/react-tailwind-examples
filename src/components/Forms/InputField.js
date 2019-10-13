@@ -32,8 +32,7 @@ class InputField extends Component {
       icon,
       error,
       placeholder,
-      disabled,
-      theme
+      disabled
     } = this.props;
     let className = "input-box-container";
     error && (className += " error");

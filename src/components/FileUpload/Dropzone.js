@@ -48,6 +48,8 @@ class Dropzone extends Component {
   }
 }
 
-Dropzone.propTypes = {};
+Dropzone.propTypes = {
+  onFileAdded: PropTypes.func
+};
 
 export default Dropzone;

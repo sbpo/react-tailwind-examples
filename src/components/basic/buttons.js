@@ -13,4 +13,7 @@ export const SmallButton = props => {
   );
 };
 
-SmallButton.propTypes = {};
+SmallButton.propTypes = {
+  onClick: PropTypes.func,
+  text: PropTypes.string
+};

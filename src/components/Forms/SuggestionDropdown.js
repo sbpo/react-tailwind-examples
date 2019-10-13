@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const SuggestionDropdown = props => {
   const { results, alreadyAdded, onAdd, onRemove } = props;
@@ -30,6 +31,11 @@ const SuggestionDropdown = props => {
   );
 };
 
-SuggestionDropdown.propTypes = {};
+SuggestionDropdown.propTypes = {
+  results: PropTypes.array,
+  alreadyAdded: PropTypes.array,
+  onAdd: PropTypes.func,
+  onRemove: PropTypes.func
+};
 
 export default SuggestionDropdown;

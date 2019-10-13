@@ -81,8 +81,6 @@ class InputExample extends Component {
   }
 }
 
-InputExample.propTypes = {};
-
 export default InputExample;
 
 const Tag = props => {
@@ -100,6 +98,12 @@ const Tag = props => {
       />
     </div>
   );
+};
+
+Tag.propTypes = {
+  key: PropTypes.string,
+  text: PropTypes.string,
+  onRemove: PropTypes.func
 };
 
 const getLocation = searchTerm => {

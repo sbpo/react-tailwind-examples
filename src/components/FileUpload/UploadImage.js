@@ -115,12 +115,10 @@ class UploadImage extends Component {
   }
 }
 
-UploadImage.propTypes = {};
 export default UploadImage;
 
 const File = props => {
   const { name, uploadStatus, onRemove } = props;
-  console.log(uploadStatus);
   return (
     <div className={`my-1 w-full p-2 relative`}>
       <div className="flex w-full items-center">
