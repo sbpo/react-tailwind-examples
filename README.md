@@ -12,6 +12,10 @@ Finally, to run the project locally run:
 
 The project contains two components
 
+### `Image uploader`
+
 ![image uploader](img/uploader.png?raw=true "Image uploader")
+
+### `Location input search box`
 
 ![Location input](img/locationinput.png?raw=true "Location input")
